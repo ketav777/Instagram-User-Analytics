@@ -1,0 +1,4 @@
+SELECT user_id , COUNT(*) AS CNT FROM likes
+GROUP BY user_id
+HAVING CNT = 257
+ORDER BY CNT DESC;
